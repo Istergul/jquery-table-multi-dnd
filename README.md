@@ -10,16 +10,27 @@ JS:
 There are a number of parameters you can set in order to control the look and feel of the table and also to add custom behaviour on drag or on drop. The parameters are specified as a map in the usual way and are described below:
 
 **onDragStyle**
+
 Styles that are added to the row being dragged. The value of this parameter should be set by an object with a set of css properties. Added styles will not be removed after the end of the drag.
+
 **onDropStyle**
+
 Styles that are added to the dispensed lines. The value of this parameter can also be installed with a set of object css properties. These styles can be used to perezatiraniya styles, set the property onDragStyle.
+
 **onDragClass**
+
 The class, which will be added to the row being dragged. This class will retire after the dragging than the property is different from the previous two.
+
 **onDragStart**
+
 The function to be executed at the initiation of a drag.
+
 **onDrop**
+
 Pass a function that will be called when the row is dropped.
+
 **scrollAmount**
+
 This is the number of pixels to scroll if the user moves the mouse cursor to the top or bottom of the window.
 
 ## Examples
@@ -46,7 +57,7 @@ HTML:
     <tr><td>row 5</td><td>text text text</td></tr>
 </table>
 
-Example with multiple drud-n-drop
+Example with multiple drug-n-drop
 JS:
 <pre>
 $('#sortable').tableDnD({
