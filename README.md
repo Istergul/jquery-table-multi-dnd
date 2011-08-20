@@ -7,7 +7,6 @@ Plugin initialization:
 JS:
 <pre>$('#sortable').tableDnD({});</pre>
 HTML:
-<pre>
 <table id="sortable">
     <tr><td>row 1</td><td>text text text</td></tr>
     <tr><td>row 2</td><td>text text text</td></tr>
@@ -15,7 +14,6 @@ HTML:
     <tr><td>row 4</td><td>text text text</td></tr>
     <tr><td>row 5</td><td>text text text</td></tr>
 </table>
-</pre>
 
 There are a number of parameters you can set in order to control the look and feel of the table and also to add custom behaviour on drag or on drop. The parameters are specified as a map in the usual way and are described below:
 
@@ -48,7 +46,6 @@ $('#sortable').tableDnD({
 });
 </pre>
 HTML:
-<pre>
 <table id="sortable">
     <tr><td>row 1</td><td>text text text</td></tr>
     <tr><td>row 2</td><td>text text text</td></tr>
@@ -56,7 +53,6 @@ HTML:
     <tr><td>row 4</td><td>text text text</td></tr>
     <tr><td>row 5</td><td>text text text</td></tr>
 </table>
-</pre>
 
 Example with multiple drud-n-drop:
 JS:
@@ -73,7 +69,6 @@ $('#sortable').tableDnD({
 });
 </pre>
 HTML:
-<pre>
 <table id="sortable">
     <tr><td>1<input type="checkbox" name="chTrack_1" class="trCheck" /></td><td>text text text</td></tr>
     <tr><td>2<input type="checkbox" name="chTrack_2" class="trCheck" /></td><td>text text text</td></tr>
@@ -81,11 +76,9 @@ HTML:
     <tr><td>4<input type="checkbox" name="chTrack_4" class="trCheck" /></td><td>text text text</td></tr>
     <tr><td>5<input type="checkbox" name="chTrack_5" class="trCheck" /></td><td>text text text</td></tr>
 </table>
-</pre>
 
 Example with several sections:
 HTML:
-<pre>
 <table id="sortable">
 <tbody>
     <tr class="nodrop nodrag"><th>H1</th><th>H2</th></tr>
@@ -103,4 +96,3 @@ HTML:
     <tr><td>9<input type="checkbox" name="chTrack_9" class="trCheck" /></td><td>text text text</td></tr>
 </tbody>
 </table>
-</pre>
