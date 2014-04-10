@@ -65,7 +65,7 @@ jQuery.tableDnD = {
                 var row = jQuery(this);
                 if (! row.hasClass("nodrag")) {
                     row.mousedown(function(ev) {
-                        if (config.checkableClass && row.find('.'+config.checkableClass).attr('checked')) {
+                        if (config.checkableClass && row.find('.'+config.checkableClass)) {
                             jQuery.tableDnD.dragObjects = jQuery("."+config.checkableClass+":checked", table).parents('tr');
                         }
                         if (ev.target.tagName == "TD") {
